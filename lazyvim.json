@@ -10,8 +10,8 @@
     "lazyvim.plugins.extras.lsp.none-ls",
     "lazyvim.plugins.extras.ui.alpha",
     "lazyvim.plugins.extras.util.project",
+    "plugins.extras.formatting.linting.eslint",
     "plugins.extras.formatting.prettier",
-    "plugins.extras.lang.typescript",
     "plugins.extras.lang.vue"
   ],
   "news": {
