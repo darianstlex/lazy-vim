@@ -18,9 +18,7 @@ return {
           source = false,
         },
       },
-      servers = {
-        unocss = {},
-      },
+      servers = {},
     },
   },
 
@@ -45,16 +43,23 @@ return {
       log_level = vim.log.levels.ERROR,
       ensure_installed = {
         "stylua",
+        "css-lsp",
+        "html-lsp",
+        "eslint-lsp",
+        "json-lsp",
+        "prettier",
+        "mdx-analyzer",
+        "terraform-ls",
+        "cssmodules-language-server",
+        "emmet-language-server",
+        "vue-language-server",
+        "typescript-language-server",
+        "tailwindcss-language-server",
+        "yaml-language-server",
       },
     },
   },
 
-  -- lsp settings
-  {
-    "tamago324/nlsp-settings.nvim",
-    cmd = "LspSettings",
-    opts = {},
-  },
   -- TCS command
   {
     "dmmulroy/tsc.nvim",
