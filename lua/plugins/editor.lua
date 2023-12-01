@@ -3,7 +3,6 @@ local float = require("util.opts").float
 
 
 return {
-	{ import = "lazyvim.plugins.extras.editor.mini-files" },
 	-- multicursors
 	{
     "smoka7/multicursors.nvim",
@@ -29,11 +28,11 @@ return {
     init = function()
       -- https://github.com/mg979/vim-visual-multi/wiki/Mappings#full-mappings-list
       vim.cmd([[
-      let g:VM_default_mappings = 0
-      let g:VM_maps = {}
-      let g:VM_maps["Find Under"] = ''
-      let g:VM_maps["Find Subword Under"] = ''
-    ]])
+				let g:VM_default_mappings = 0
+				let g:VM_maps = {}
+				let g:VM_maps["Find Under"] = ''
+				let g:VM_maps["Find Subword Under"] = ''
+			]])
     end,
   },
 

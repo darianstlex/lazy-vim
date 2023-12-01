@@ -10,4 +10,5 @@ return {
   { import = "plugins.extras.lang.typescript" },
   { import = "plugins.extras.linting.eslint" },
   { import = "plugins.extras.formatting.prettier" },
+  { import = "plugins.extras.ui.codicon" },
 }

@@ -7,7 +7,6 @@ local kinds_space = icons.get("kinds", { "space" })
 local ui_space = icons.get("ui", { "space" })
 local git_symbols_lower = icons.get("git_symbol", { "lower_case" })
 local diagnostics_lower_space = icons.get("diagnostics", { "lower_case", "space" })
-local misc_space = icons.get("misc", { "space" })
 
 return {
   {
