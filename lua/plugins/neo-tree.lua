@@ -15,7 +15,7 @@ return {
         { source = "filesystem", display_name = kinds.Class .. " File" },
         { source = "buffers", display_name = ui.Note .. " Bufs" },
         { source = "git_status", display_name = git.Conflict .. " Git" },
-        { source = "diagnostics", display_name = ui.Comment .. " Diagnostic" },
+        { source = "document_symbols", display_name = kinds.Variable .. " Symbols" },
       },
     },
     filesystem = {
@@ -33,7 +33,7 @@ return {
       },
     },
     window = {
-      width = 35,
+      width = 45,
     },
     nesting_rules = {
       ["js"] = { "js.map" },

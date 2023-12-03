@@ -88,4 +88,14 @@ return {
     },
     config = true,
   },
+
+  {
+    "vuki656/package-info.nvim",
+    config = function()
+      require('package-info').setup({
+      	package_manager = "npm",
+				hide_up_to_date = true
+      })
+    end
+  },
 }
