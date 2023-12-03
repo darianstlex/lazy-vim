@@ -87,7 +87,8 @@ return {
       return vim.tbl_deep_extend("force", opts, {
         filetypes = self.ft,
         user_default_options = {
-          RRGGBBAA = true,
+          css = true,
+          sass = { enable = true, parsers = { "css" }, },
           tailwind = true,
         },
       })

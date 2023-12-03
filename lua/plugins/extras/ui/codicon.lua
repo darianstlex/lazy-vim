@@ -1,3 +1,4 @@
+local cmp = require("util.cmp")
 local icons = require("config.icons")
 local ui = icons.get("ui")
 local kinds = icons.get("kinds")
@@ -23,8 +24,8 @@ return {
     "nvim-cmp",
     opts = function(_, opts)
       local lspkind = require("lspkind")
-      local formatting = require("util.cmp").formatting
-      local duplicates = require("util.cmp").duplicates
+      local formatting = cmp.formatting
+      local duplicates = cmp.duplicates
 
       -- vscode like
       opts.formatting.fields = { "kind", "abbr", "menu" }
